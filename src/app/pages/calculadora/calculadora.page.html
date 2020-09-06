@@ -1,0 +1,15 @@
+<app-header titulo="Calculadora"></app-header>
+
+<br><br><br>
+<ion-content class="ion-padding">
+  <ion-item>
+    <ion-label class="value">
+      {{value}}
+    </ion-label>
+  </ion-item> <br>
+  <div *ngFor="let numGroup of numberGroups">
+    <ion-button *ngFor="let num of numGroup" 
+                (click)="onButtonPress(num)" 
+                class="calc-button" color="tertiary">{{num}}</ion-button>
+  </div>
+</ion-content>

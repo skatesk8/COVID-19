@@ -1,0 +1,22 @@
+[ 
+  {
+  "icon": "heart",
+  "name": "Recomendaciones",
+  "redirectTo": "/estudios" 
+  },
+    {
+      "icon": "medkit",
+      "name": "Sintomas",
+      "redirectTo": "/action-sheet" 
+    },
+    {
+      "icon": "podium",
+      "name": "Estadisticas",
+      "redirectTo": "/perfil" 
+    },
+    {
+      "icon": "business",
+      "name": "Creditos",
+      "redirectTo": "/galeria" 
+    }
+  ]

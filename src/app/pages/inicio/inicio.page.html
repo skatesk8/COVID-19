@@ -1,0 +1,42 @@
+<ion-header no-border>
+  <ion-toolbar color="tertiary" mode="ios">
+
+    <ion-buttons slot="start">
+      
+      <!-- <ion-button (click)="toggleMenu()">
+        <ion-icon slot="icon-only" name="menu"></ion-icon>
+      </ion-button> -->
+
+      <ion-menu-button color="primary"
+                       menu="primerMenu">
+      </ion-menu-button>
+
+    </ion-buttons>
+
+
+    <ion-title color="primary">Bienvenido</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card color="primary">
+    <img src="./assets/woman.png"/>
+    <ion-card-header>
+      <ion-card-title style="color: #333333; font-weight: bold;">Bienvenidos a Info COVID</ion-card-title>
+    </ion-card-header>
+    <ion-card-content style="color: #333333; font-weight: bold;">
+      <ion-card-subtitle>Para ofrecerle el mejor servicio, por favor, selecciona tu idioma.</ion-card-subtitle>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-item color="tertiary" class="ion-margin">
+    <ion-label>Idioma</ion-label>
+    <ion-select color="tertiary" placeholder="Selecione uno">
+      <ion-select-option color="tertiary" value="f">Español</ion-select-option>
+      <ion-select-option color="tertiary" value="m">Ingles</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-note color="dark"><h5 style="padding: 10px; text-justify: distribute;">Conoce en todo momento si te expones al coronavirus,
+     ayudandote a proteger y proteger a los demas.</h5></ion-note>
+</ion-content>
